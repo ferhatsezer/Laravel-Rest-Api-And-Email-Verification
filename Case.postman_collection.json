@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "61c81c0e-e2c5-4453-8a19-e3612a7533e1",
+		"name": "Case",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8000/api/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "ferhatsezer67@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123123",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "Ferhat Sezer",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/register",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "ferhatsezer67@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123123123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/login",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/update",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMjk2ODVjMmJlYjUyNmUxOTE2MTM3MzVmZjVkMmQ4ZTMyNjZkZmJlZTI4MjIwOTZhNzAzZjg5ZTc0YTliM2E0NDE4Zjc4YTBhY2QyNWFlYjQiLCJpYXQiOjE2MjAwMTM5MjkuNjIwNzk2LCJuYmYiOjE2MjAwMTM5MjkuNjIwODA0LCJleHAiOjE2NTE1NDk5MjkuNjE1NzQyLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.DWvN5C6vh7lzPpahkiX5OqarrFf9y50pUQp_bfmdUvkNtgocZT6GYdAHBPkN0DZFMsV49h1j-CMcLC2Do1_ur4hZw_wgF6dMfkyaX_38D1Mlou-ru-L9zxLbQx1bZ-r6iDOI1G6ES-9pVBqbCuPFQ_4zkqTCeSruVUSnDQoy-kLHIb-iQFkiBFMoP7lA80g5o_XxNK2oUnwQwjMDfeNB2ZKWu61c17zbhWQTtp9JRgREpgzliYWDl2epEW-prnX-siPb2DB87iX9ce4oJWNEJyTlxyGwf1JpOTj0wQLHNXlo9MO7yYHwXnYuMh9E085uQl2PAxWL_ebIRynvBDmcwwEtGIBshlHZWD-pVy_UfI0GUleDkwqisEmzYxN_LH4S8BGjtp2LsV-BGgK_G5_G9tZacBAXG_rTJyZATJkGAPuvbHDZ-HdEqKvuNmWrEEDEdxCe4lV-t3wmhFjMP8j6C8nSwiJYh_kQ67UgXYDmzOe920M-zPgtT9dS0VZCJ_rOT6s1GFosMZTW4DfUKXOTwNETY85xJ65y5zlu3MLTKAzgAblEly9IJWxB41PYI8zK9bi_j8aywhzJNjmUvT5yk02UMAOWHXZ06VYSJM3YguMLq6jt0wHETxC7wh_CAiwlaEhBy3L3GRGM5d0Z4QVn7u_NDD2u5ZwH_GmAertDWgE",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "ferhatsezer67@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123123123",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "123123123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/api/update",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/logout",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMjk2ODVjMmJlYjUyNmUxOTE2MTM3MzVmZjVkMmQ4ZTMyNjZkZmJlZTI4MjIwOTZhNzAzZjg5ZTc0YTliM2E0NDE4Zjc4YTBhY2QyNWFlYjQiLCJpYXQiOjE2MjAwMTM5MjkuNjIwNzk2LCJuYmYiOjE2MjAwMTM5MjkuNjIwODA0LCJleHAiOjE2NTE1NDk5MjkuNjE1NzQyLCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.DWvN5C6vh7lzPpahkiX5OqarrFf9y50pUQp_bfmdUvkNtgocZT6GYdAHBPkN0DZFMsV49h1j-CMcLC2Do1_ur4hZw_wgF6dMfkyaX_38D1Mlou-ru-L9zxLbQx1bZ-r6iDOI1G6ES-9pVBqbCuPFQ_4zkqTCeSruVUSnDQoy-kLHIb-iQFkiBFMoP7lA80g5o_XxNK2oUnwQwjMDfeNB2ZKWu61c17zbhWQTtp9JRgREpgzliYWDl2epEW-prnX-siPb2DB87iX9ce4oJWNEJyTlxyGwf1JpOTj0wQLHNXlo9MO7yYHwXnYuMh9E085uQl2PAxWL_ebIRynvBDmcwwEtGIBshlHZWD-pVy_UfI0GUleDkwqisEmzYxN_LH4S8BGjtp2LsV-BGgK_G5_G9tZacBAXG_rTJyZATJkGAPuvbHDZ-HdEqKvuNmWrEEDEdxCe4lV-t3wmhFjMP8j6C8nSwiJYh_kQ67UgXYDmzOe920M-zPgtT9dS0VZCJ_rOT6s1GFosMZTW4DfUKXOTwNETY85xJ65y5zlu3MLTKAzgAblEly9IJWxB41PYI8zK9bi_j8aywhzJNjmUvT5yk02UMAOWHXZ06VYSJM3YguMLq6jt0wHETxC7wh_CAiwlaEhBy3L3GRGM5d0Z4QVn7u_NDD2u5ZwH_GmAertDWgE",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:8000/api/logout",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"logout"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
